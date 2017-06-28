@@ -7,7 +7,8 @@ Compiling Hello-Java Using Ant in Jenkins
 -Repo Reference: https://github.com/prasanjit-/hello-java-ant
 
 
-
+```sh
 -Build Steps:
-``#export JAVA_HOME='/usr/lib/jvm/java-1.8.0-openjdk/'``
-``#ant compile jar run``
+#export JAVA_HOME='/usr/lib/jvm/java-1.8.0-openjdk/'
+#ant compile jar run
+```
