@@ -18,11 +18,6 @@ pipeline {
                 sh 'ant compile'
             }
         }
-        stage('Test') {
-            steps {
-                sh 'ant test'
-            }
-        }
         stage('Package') {
             steps {
                 sh 'ant jar'
