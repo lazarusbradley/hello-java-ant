@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/prasanjit-/hello-java-ant.git'
+                git 'https://github.com/lazarusbradley/hello-java-ant.git'
             }
         }
         stage('Setup') {
