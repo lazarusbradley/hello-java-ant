@@ -9,7 +9,7 @@ pipeline {
         stage('Setup') {
             steps {
                 script {
-                    env.JAVA_HOME = tool name: 'JDK 11', type: 'JDK'
+                    env.JAVA_HOME = tool name: 'JDK 21', type: 'JDK'
                 }
             }
         }
